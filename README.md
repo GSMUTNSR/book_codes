@@ -17,5 +17,5 @@ If users want to use the files in "test_files" directories to test codes, as men
 
 The use of many-body projectiles in GSM-CC is still in development. 
 Codes might run, but results might not be correct.
-Hence, the GSM-CC code is not available for the use of many-body projectiles.
+Hence, the GSM-CC code is considered to be not available for the use of many-body projectiles.
 No information is provided for the moment about the use of many-body projectiles in the user's manual.
