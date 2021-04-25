@@ -5,6 +5,9 @@ Users should be familiar with the concepts introduced in the book and with the u
 
 The GSM codes are in the "GSM_code" directory.
 
+Most files of the GSM codes are commented, in particular the routines in "numlib" and "GSM_dir". 
+However, the GSM-CC reaction code is not commented for the moment. 
+
 The provided directory "workspace_for_GSM" contains interaction files for special options.
 
 The parameters of input files are described in the user's manual (GSM_manual.pdf).
