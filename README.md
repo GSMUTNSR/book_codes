@@ -9,6 +9,8 @@ Most files of the GSM codes are commented, in particular the routines in "numlib
 However, the GSM-CC reaction code is not commented for the moment.
 
 The provided directory "workspace_for_GSM" contains interaction files for special options.
+They were created using the codes of Prof. Morten Hjorth-Jensen (Oslo University, Michigan State University). 
+The Github website of Prof. Morten Hjorth-Jensen containing codes producing nuclear interactions can be found at https://github.com/ManyBodyPhysics/CENS .
 
 The parameters of input files are described in the user's manual (GSM_manual.pdf).
 
