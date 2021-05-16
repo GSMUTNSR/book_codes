@@ -27,12 +27,21 @@ Hence, no information is provided for the moment about the use of many-body proj
 Version
 -------
 This is version 2 (GSM-2.0). 
+
 Here are the main changes compared to GSM-1.0 :
+
 _ Bugs found and corrected in rarely used options:
+
 . Truncated spaces with valence holes and energy/particle-hole truncations
+
 . Spectroscopic factors with cluster and nuclei projectiles
+
 . Multipoles in GSM-CC
+
 _ Added tests when reading the input file.
+
 _ Slight changes in input files with overlap function only.
+
 _ Added test files in "test_files" directories.
+
 _ A few misprints found and corrected in the user's manual.
