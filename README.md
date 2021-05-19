@@ -38,6 +38,10 @@ _ Bugs found and corrected in rarely used options:
 
 . Multipoles in GSM-CC
 
+. 1 valence proton, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian was giving wrong results.
+
+. Valence protons, harmonic oscillator shells, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian were giving wrong results.
+
 _ Added tests when reading the input file.
 
 _ Slight changes in input files with overlap function only.
@@ -45,3 +49,24 @@ _ Slight changes in input files with overlap function only.
 _ Added test files in "test_files" directories.
 
 _ A few misprints found and corrected in the user's manual.
+
+
+Exercises
+---------
+The results of Exercise X of Chapter 9 had to be refitted and recalculated.
+
+Conclusions are the same, but percentages given in the solution have changed:
+
+85% -> 90%
+
+75% -> 82%
+
+69% -> 81%
+
+23% -> 13%
+
+22% -> 13%.
+  
+The results of Exercise XI of Chapter 9 also had to be recalculated and slightly adjusted.
+
+All conclusions remain the same.
