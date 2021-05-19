@@ -53,7 +53,7 @@ _ A few misprints found and corrected in the user's manual.
 
 Exercises
 ---------
-The results of Exercise X of Chapter 9 had to be refitted and recalculated.
+The Hamiltonian of Exercise X of Chapter 9 had to be refitted and results recalculated.
 
 Conclusions are the same, but percentages given in the solution have changed:
 
