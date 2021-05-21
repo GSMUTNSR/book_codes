@@ -38,6 +38,8 @@ _ Bugs found and corrected in rarely used options:
 
 . Multipoles in GSM-CC
 
+. GSM optimization in 1D and hybrid 1D/2D codes using partial storage or on the fly.
+
 . 1 valence proton, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian was giving wrong results.
 
 . Valence protons, harmonic oscillator shells, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian were giving wrong results.
