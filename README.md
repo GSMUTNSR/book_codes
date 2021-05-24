@@ -44,6 +44,8 @@ _ Bugs found and corrected in rarely used options:
 
 . Valence protons, harmonic oscillator shells, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian were giving wrong results.
 
+. Using valence holes in asymmetric proton-neutron spaces
+
 _ Added tests when reading the input file.
 
 _ Slight changes in input files with overlap function only.
