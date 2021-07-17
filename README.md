@@ -18,7 +18,7 @@ README files are present in all directories Exercises/Chapter_[number]/Exercise_
 They describe how to run the code dedicated to each exercise. 
 Input and output files are provided.
 
-If users want to use the files in "test_files" directories to test codes, as mentioned in the user's manual, they must copy the content of "workspace_for_GSM" to their own workspace.
+If users want to use the files in "test_files" directories to test codes, as mentioned in the user's manual, they must copy the content of "workspace_for_GSM" and "Qbox_interaction" to their own workspace.
 
 The use of many-body projectiles in GSM-CC is in development. 
 Codes might run, but results might not be correct.
@@ -27,50 +27,31 @@ Hence, no information is provided for the moment about the use of many-body proj
 Version
 -------
 This is version 2 (GSM-2.0). 
-
 Here are the main changes compared to GSM-1.0 :
-
 _ Bugs found and corrected in rarely used options:
-
 . Truncated spaces with valence holes and energy/particle-hole truncations
-
 . Spectroscopic factors with cluster and nuclei projectiles
-
 . Multipoles in GSM-CC
-
-. GSM optimization in 1D and hybrid 1D/2D codes using partial storage or on the fly.
-
 . 1 valence proton, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian was giving wrong results.
-
 . Valence protons, harmonic oscillator shells, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian were giving wrong results.
-
-. Using valence holes in asymmetric proton-neutron spaces
-
+. Codes had to be slightly reworked for Qbox calculations.
 _ Added tests when reading the input file.
-
 _ Slight changes in input files with overlap function only.
-
 _ Added test files in "test_files" directories.
-
 _ A few misprints found and corrected in the user's manual.
-
 
 Exercises
 ---------
-The Hamiltonian of Exercise X of Chapter 9 had to be refitted and results recalculated.
 
-Conclusions are the same, but percentages given in the solution have changed:
-
+The results of Exercise X of Chapter 9 had to be refitted and recalculated.
+Conclusions are the same, but percentages given in the solution changed:
 85% -> 90%
-
 75% -> 82%
-
 69% -> 81%
-
 23% -> 13%
-
 22% -> 13%.
   
 The results of Exercise XI of Chapter 9 also had to be recalculated and slightly adjusted.
-
 All conclusions remain the same.
+
+
