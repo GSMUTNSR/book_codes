@@ -43,6 +43,8 @@ _ Bugs found and corrected in rarely used options:
 
 . An error was found in the calculation of used memory in some cases (invisible on screen, found only in tests).
 
+. The GSM-CC Berggren basis was not respecting the orthogonality condition model when the GSM basis had only harmonic oscillator states.
+
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
 
 _ Added tests when reading the input file and removed useless input occurring in some rare cases.
