@@ -45,6 +45,8 @@ _ Bugs found and corrected in rarely used options:
 
 . The GSM-CC Berggren basis was not respecting the orthogonality condition model when the GSM basis had only harmonic oscillator states.
 
+. A wrapper to call Coulomb wave functions form a FORTRAN code has been added.
+
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
 
 _ Added tests when reading the input file and removed useless input occurring in some rare cases.
