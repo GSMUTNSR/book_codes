@@ -47,6 +47,8 @@ _ Bugs found and corrected in rarely used options:
 
 . A wrapper to call Coulomb wave functions form a FORTRAN code has been added.
 
+. The Berggren basis for proton in the particle-rotor code was not calculated properly. It is corrected.
+
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
 
 _ Added tests when reading the input file and removed useless input occurring in some rare cases.
