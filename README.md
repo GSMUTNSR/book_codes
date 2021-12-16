@@ -17,7 +17,7 @@ If users want to use the files in "test_files" directories to test codes, as men
 
 The use of many-body projectiles in GSM-CC is in development. Codes might run, but results might not be correct. Hence, only partial information is provided for the moment about the use of many-body projectiles in the user's manual.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Version
 -------
@@ -45,12 +45,11 @@ _ Bugs found and corrected in rarely used options:
 
 . The GSM-CC Berggren basis was not respecting the orthogonality condition model when the GSM basis had only harmonic oscillator states.
 
-. A wrapper to call Coulomb wave functions form a FORTRAN code has been added.
+. A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
 . The Berggren basis for proton in the particle-rotor code was not calculated properly. It is corrected.
 
 . Splines derivatives were too approximate. Effects are only quantitative and small, so that conclusions do not change. 
-
   The outputs of the exercises using splines derivatives, i.e. Exercises III and IV of Chapter 7, have been recalculated.
 
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
@@ -67,7 +66,11 @@ _ He3 is now written 3He.
 
 _ The name of the file containing phases shifts no longer contains useless vector indices.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_ The normalization of spherical harmonics was not standard. It is corrected and comments have been updated. The test file has been changed as well.
+
+_ Output of the particle-rotor code has been slightly reworked. Results have not changed.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Exercises
 ---------
