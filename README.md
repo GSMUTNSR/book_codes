@@ -23,7 +23,7 @@ Hypernuclei are also being coded, but the code has not been tested with hypernuc
 
 Version
 -------
-This is version 3 (GSM-3.0). 
+This is version 2 (GSM-2.0). 
 
 Here are the main changes compared to GSM-1.0 :
 
