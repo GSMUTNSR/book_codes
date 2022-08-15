@@ -17,11 +17,13 @@ If users want to use the files in "test_files" directories to test codes, as men
 
 The use of many-body projectiles in GSM-CC is in development. Codes might run, but results might not be correct. Hence, only partial information is provided for the moment about the use of many-body projectiles in the user's manual.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hypernuclei are also being coded, but the code has not been tested with hypernuclei. Hence, no information is being given about it.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Version
 -------
-This is version 2 (GSM-2.0). 
+This is version 3 (GSM-3.0). 
 
 Here are the main changes compared to GSM-1.0 :
 
@@ -45,12 +47,18 @@ _ Bugs found and corrected in rarely used options:
 
 . The GSM-CC Berggren basis was not respecting the orthogonality condition model when the GSM basis had only harmonic oscillator states.
 
-. A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
-
 . The Berggren basis for proton in the particle-rotor code was not calculated properly. It is corrected.
 
 . Splines derivatives were too approximate. Effects are only quantitative and small, so that conclusions do not change. 
   The outputs of the exercises using splines derivatives, i.e. Exercises III and IV of Chapter 7, have been recalculated.
+  
+. M1 transitions were not given in units of magnetons in EM transitions. It is corrected. M1 cross sections were correct.
+
+. The units of spherical harmonics was not standard. It has been corrected. It was not visible in previous applications.
+
+. An option involving the KKNN potential and HF calculations was wrongly handled. This option had never been used before. It has been corrected.
+
+_ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
 
@@ -70,7 +78,11 @@ _ The normalization of spherical harmonics was not standard. It is corrected and
 
 _ Output of the particle-rotor code has been slightly reworked. Results have not changed.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_ The calculation of multipoles has been added in EM transitions, i.e. when Psi[in] = Psi[out].
+
+_ Allocation and deallocation of arrays, arrays of arrays, etc, has been automatized.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Exercises
 ---------
