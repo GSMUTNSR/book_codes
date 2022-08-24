@@ -1,7 +1,7 @@
-Copyright
----------
+Copyright notice
+----------------
 
-Licensed under the Academic Free License version 3.0.
+Licensed under the Academic Free License version 3.0 (see file LICENSE.txt in the source code).
 
 General information
 -------------------
