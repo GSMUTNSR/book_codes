@@ -20,9 +20,9 @@ README files are present in all directories Exercises/Chapter_[number]/Exercise_
 
 If users want to use the files in "test_files" directories to test codes, as mentioned in the user's manual, they must copy the content of "workspace_for_GSM" and "Qbox_interaction" to their own workspace.
 
-The use of many-body projectiles in GSM-CC is in development. Codes might run, but results might not be correct. Hence, only partial information is provided for the moment about the use of many-body projectiles in the user's manual.
+The use of many-body projectiles and no-core framework in GSM-CC is in development. Codes might run, but results might not be correct. Hence, only partial information about it is provided for the moment in the user's manual.
 
-Hypernuclei are also being coded, but the code has not been tested with hypernuclei. Hence, no information is being given about it.
+Hypernuclei are also being developed, but the code has not been tested in this case. Hence, no information is being given about it.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -38,7 +38,9 @@ _ Bugs found and corrected in rarely used options:
 
 . Spectroscopic factors with cluster and nuclei projectiles
 
-. Multipoles in GSM-CC
+. Multipoles in GSM and GSM-CC were not correct. They are corrected.
+
+. EM transition strengths in GSM-CC was not correct. It is corrected.
 
 . 1 valence proton, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian was giving wrong results.
 
@@ -63,6 +65,12 @@ _ Bugs found and corrected in rarely used options:
 
 . An option involving the KKNN potential and HF calculations was wrongly handled. This option had never been used before. It has been corrected.
 
+. Rms radii functions were not correct with standard HO-SM. This option had never been used before. It is corrected.
+
+. Errors found in the GSM and GSM-CC hybrid 1D/2D codes (rarely used codes) in proton-neutron configuration print in GSM, use of MSDHF in GSM, observables in GSM-CC. They are corrected.
+
+. Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. Added to that, it was inactive when all proton and neutron shells have the same parity, as in test files.
+
 _ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
@@ -86,6 +94,8 @@ _ Output of the particle-rotor code has been slightly reworked. Results have not
 _ The calculation of multipoles has been added in EM transitions, i.e. when Psi[in] = Psi[out].
 
 _ Allocation and deallocation of arrays, arrays of arrays, etc, has been automatized.
+
+_ Pivots for many-body eigenstates can now be used in GSM-CC.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
