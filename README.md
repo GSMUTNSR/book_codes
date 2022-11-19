@@ -40,7 +40,7 @@ _ Bugs found and corrected in rarely used options:
 
 . Multipoles in GSM and GSM-CC were not correct. They are corrected.
 
-. EM transition strengths in GSM-CC was not correct. It is corrected.
+. EM transition strengths in GSM-CC were not correct. It is corrected.
 
 . 1 valence proton, and different numbers of protons in diagonalized Hamiltonian and basis Hamiltonian was giving wrong results.
 
@@ -71,6 +71,8 @@ _ Bugs found and corrected in rarely used options:
 
 . Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. Added to that, it was inactive when all proton and neutron shells have the same parity, as in test files.
 
+. A bug was found in a+ a~ matrix elements : some values were missing in the output files. It has been corrected but is still being tested.
+
 _ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
@@ -96,6 +98,8 @@ _ The calculation of multipoles has been added in EM transitions, i.e. when Psi[
 _ Allocation and deallocation of arrays, arrays of arrays, etc, has been automatized.
 
 _ Pivots for many-body eigenstates can now be used in GSM-CC.
+
+_ Truncation scheme generalized in GSM-CC : the number of occupied one-body scattering states in GSM-CC many-body states now depends on parity and total angular momentum.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
