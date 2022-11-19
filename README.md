@@ -10,7 +10,7 @@ Users should be familiar with the concepts introduced in the book and with the u
 
 The GSM codes are in the "GSM_code" directory.
 
-Most files of the GSM codes are commented, in particular the routines in "numlib" and "GSM_dir". However, the GSM-CC reaction code is not commented for the moment.
+Most files of the GSM codes are commented, in particular the routines in "numlib", "GSM_dir" and "CC_dir".
 
 The provided directory "workspace_for_GSM" contains interaction files for special options. They were created using the codes of Prof. Morten Hjorth-Jensen (Oslo University, Michigan State University). The Github website of Prof. Morten Hjorth-Jensen containing codes producing nuclear interactions can be found at https://github.com/ManyBodyPhysics/CENS .
 
@@ -100,6 +100,8 @@ _ Allocation and deallocation of arrays, arrays of arrays, etc, has been automat
 _ Pivots for many-body eigenstates can now be used in GSM-CC.
 
 _ Truncation scheme generalized in GSM-CC : the number of occupied one-body scattering states in GSM-CC many-body states now depends on parity and total angular momentum.
+
+_ Comments added in the GSM-CC code.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
