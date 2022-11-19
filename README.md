@@ -71,7 +71,7 @@ _ Bugs found and corrected in rarely used options:
 
 . Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. Added to that, it was inactive when all proton and neutron shells have the same parity, as in test files.
 
-. A bug was found in a+ a~ matrix elements : some values were missing in the output files. It has been corrected but is still being tested.
+. A bug was found in a+ a~ matrix elements : some values were missing in the output files and a+[p].a~[p] was not appearing on screen. It has been corrected.
 
 _ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
