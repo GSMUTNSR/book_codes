@@ -63,13 +63,17 @@ _ Bugs found and corrected in rarely used options:
 
 . The units of spherical harmonics was not standard. It has been corrected. It was not visible in previous applications.
 
-. An option involving the KKNN potential and HF calculations was wrongly handled. This option had never been used before. It has been corrected.
+. The KKNN potential was not working with GSM codes. It was also wrongly handled with HF calculations. These options had never been used before. 
+  It has been slightly reworked, corrected, and test files have been added. The GSM manual has also been modified for that matter.
 
 . Rms radii functions were not correct with standard HO-SM. This option had never been used before. It is corrected.
 
-. Errors found in the GSM and GSM-CC hybrid 1D/2D codes (rarely used codes) in proton-neutron configuration print in GSM, use of MSDHF in GSM, observables in GSM-CC. They are corrected.
+. Errors found in the GSM and GSM-CC hybrid 1D/2D codes (rarely used codes) in proton-neutron configuration print in GSM, use of MSDHF in GSM, observables in GSM-CC.   
+  They are corrected.
 
-. Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. Added to that, it was inactive when all proton and neutron shells have the same parity, as in test files.
+. Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. 
+  As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. 
+  Added to that, it was inactive when all proton and neutron shells have the same parity, as in test files.
 
 . A bug was found in a+ a~ matrix elements : some values were missing in the output files and a+[p].a~[p] was not appearing on screen. It has been corrected.
 
@@ -107,6 +111,8 @@ _ Comments added in the GSM-CC code.
 
 Exercises
 ---------
+
+In Exercise VIII of Chapter 3, one must replace $x^{-4} e^{i \theta}$ by $(x^{-4} - R) e^{i \theta}$ in Eq.(3.62). The rest of the exercise is correct, as well as the associated code.
 
 The results of Exercise X of Chapter 9 had to be refitted and recalculated.
 
