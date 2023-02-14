@@ -68,8 +68,7 @@ _ Bugs found and corrected in rarely used options:
 
 . Rms radii functions were not correct with standard HO-SM. This option had never been used before. It is corrected.
 
-. Errors found in the GSM and GSM-CC hybrid 1D/2D codes (rarely used codes) in proton-neutron configuration print in GSM, use of MSDHF in GSM, observables in GSM-CC.   
-  They are corrected.
+. Errors found in the GSM and GSM-CC hybrid 1D/2D codes (rarely used codes) in proton-neutron configuration print in GSM, use of MSDHF in GSM, observables in GSM-CC.   They are corrected.
 
 . Error found in GSM-2D with proton-neutron one-jumps put to full or partial storage. 
   As it can occur only with Hamiltonian calculated on-the-fly, where proton-neutron one-jumps are also put to on-the-fly in practice, this bug was invisible. 
