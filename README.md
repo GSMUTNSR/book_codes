@@ -76,6 +76,8 @@ _ Bugs found and corrected in rarely used options:
 
 . A bug was found in a+ a~ matrix elements : some values were missing in the output files and a+[p].a~[p] was not appearing on screen. It has been corrected.
 
+. There was when reading/writing OBMEs and TBMEs with files. It has been corrected and tested.
+
 _ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
 _ Rms radius and rms-radius one-body strength can now be calculated in no-core GSM using realistic interactions.
