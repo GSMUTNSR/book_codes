@@ -73,9 +73,9 @@ _ Bugs found and corrected in rarely used options:
 
 . A bug was found in a+ a~ matrix elements : some values were missing in the output files and a+[p].a~[p] was not appearing on screen. It has been corrected.
 
-. There was a bug when copying TBMEs to a file. Reading TBMEs was correct. The bug has been fixed and input files slightly reworked. 
+. There was a bug when copying TBMEs to a file. Reading TBMEs was correct. The bug has been fixed and input file slightly reworked. 
 
-. A few array routine members were not correct when using many-dimensional arrays, which were then never used in that situation. It is corrected.
+. A few almost never used array routine members were not correct when using many-dimensional arrays. It is corrected.
 
 _ A wrapper to call Coulomb wave functions from a FORTRAN code has been added.
 
@@ -107,6 +107,10 @@ _ Truncation scheme generalized in GSM-CC : the number of occupied one-body scat
 
 _ Comments added in the GSM-CC code.
 
+_ Transition densities added between eigenstates of same angular momentum and parity.
+
+_ A bug was found in the calculation of GSM-CC eigenstates. Observables related to GSM-CC eigenstates except energy were not correct. In particular, radiative capture cross sections have to be recalculated in Exercise XI of Chapter 9 with different effective charges (see below).
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Exercises
@@ -128,8 +132,17 @@ Conclusions are the same, but percentages given in the solution changed:
 
 22% -> 13%.
   
-The results of Exercise XI of Chapter 9 also had to be recalculated and slightly adjusted.
-All conclusions remain the same.
-
+The cross sections of Exercise XI of Chapter 9 had to be recalculated due to a bug inducing wrong effective charges in particular.
+The last paragraph of the exercise solution in the book must be replaced by :
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The proton and neutron effective charge for E1 transitions arising from target recoil only
+is 0.375 in absolute value, as $e_p$ and $e_n$ play no role in the used model for $^7$Li(n, $\gamma$) and $^7$Be(p, $\gamma$)
+reactions, respectively. 
+The proton and neutrons effective charges allowing to reproduce experimental data is 1.6 times larger than the theoretical effective charges, 
+which is acceptable as effective charge can vary by up to one unit compared to its bare value [2]. 
+Effective charges $e_p$ and $e_n$ can be as large as 1.5 and 0.95, respectively, for example [105]. 
+In our calculation, the proton and neutron effective charges for E1 transitions are then : 
+$e_n$ = 0.6 for the $^7$Li(n, $\gamma$) reaction and $e_p$ = 0.6 for the $^7$Be(p, $\gamma$) reaction.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
